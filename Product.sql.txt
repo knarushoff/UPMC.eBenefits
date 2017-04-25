@@ -1,0 +1,8 @@
+USE [AdventureWorks2012]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+alter Table Production.Product Add IsDeleted bit NOT NULL DEFAULT(0)
+GO
